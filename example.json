@@ -1,0 +1,27 @@
+{
+  "before": {
+    "components": [
+      {
+        "bom-ref": "library-a",
+        "name": "library-a",
+        "version": "1.0"
+      }
+    ]
+  },
+  "after": {
+    "components": [
+      {
+        "bom-ref": "library-a",
+        "name": "library-a",
+        "version": "1.1",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
